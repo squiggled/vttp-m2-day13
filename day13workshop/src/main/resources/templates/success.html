@@ -9,6 +9,7 @@
 </head>
 <body>
     <h1>Successfully added</h1>
-    <p data-th-></p>
+    <p data-th-text="${savedContact.name}"></p>
+    <a th:href="@{/contacts}">All Contacts</a>
 </body>
 </html>
